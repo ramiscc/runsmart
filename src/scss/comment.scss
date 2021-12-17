@@ -1,0 +1,38 @@
+.comment{
+  padding: 50px 0 20px;
+  &__title{
+    @include text($museo700, 30px, #0d0d0d, 36px,normal, normal);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+  }
+  &__person{
+    display: flex;
+    border-bottom: 1px solid #F6F6F6;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    &:last-child{
+      border-bottom: none;
+    }
+  }
+  &__personImg{
+    width: 170px;
+    height: 170px;
+    margin-right: 60px;
+  }
+  &__personName{
+    @include text($museo700, 18px, #0d0d0dm , 21px, normal, normal);
+    margin-bottom: 10px;
+  }
+  &__personSub{
+    @include text($museo300, 14px, #646464, 16px, normal, normal);
+    margin-bottom: 10px;
+  }
+  &__comments{
+    @include text($museo300, 16px, #0d0d0d, 19px, normal, normal);
+    margin-bottom: 20px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+}

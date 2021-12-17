@@ -1,0 +1,37 @@
+.sectionForm{
+  padding: 85px 0 90px;
+  background: url("../images/form/bg2.png") center/cover no-repeat;
+  &__title{
+    @include text($museo700, 36px, rgba(255,255,255,1), 43px, normal, normal);
+  }
+  &__subtitle{
+    @include text($museo500, 20px, rgba(255,255,255,1), 24px, normal, normal);
+    margin: 70px 0 35px;
+  }
+  &__form{
+    width: 300px;
+  }
+  &__label{
+    width: 100%;
+    height: 50px;
+    display: block;
+    margin-bottom: 15px;
+  }
+  &__form &:last-child{
+    margin-bottom: 50px;
+  }
+  &__input{
+    @include text($museo300, 14px, rgba(75,75,75,1), 66px, normal, normal);
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 0 18px;
+  }
+  &__btn{
+    @include btn($museo300, 14px);
+    width: 100%;
+    height: 50px;
+  }
+}

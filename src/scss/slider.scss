@@ -1,0 +1,27 @@
+.slider{
+  padding: 108px 0 98px;
+  .owl-carousel .owl-item img{
+    width: 750px;
+    margin: 0 auto;
+  }
+  .owl-nav .owl-prev{
+    background: url("../images/slide/left.svg") center/cover no-repeat;
+    width: 30px;
+    height: 50px;
+  }
+  .owl-nav .owl-next{
+    background: url("../images/slide/right.svg") center/cover no-repeat;
+    width: 30px;
+    height: 50px;
+  }
+  & .owl-nav .owl-next{
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+  & .owl-nav .owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+}

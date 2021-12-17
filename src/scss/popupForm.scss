@@ -1,0 +1,31 @@
+.popupForm{
+  &__label{
+    width: 300px;
+    height: 50px;
+    display: block;
+    margin-bottom: 15px;
+  }
+  .form &:last-child{
+    margin-bottom: 50px;
+  }
+  &__input{
+    @include text($museo300, 14px, rgba(75,75,75,1), 66px, normal, normal);
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 0 18px;
+  }
+  &__btn{
+    @include text($museo300, 14px, white, 19px, normal, normal);
+    width: 300px;
+    height: 50px;
+    background: #c70101;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    display: block;
+    text-transform: uppercase;
+  }
+}

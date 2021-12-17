@@ -1,0 +1,29 @@
+.features {
+  padding: 60px 0 60px;
+  background: #f6f6f6;
+  .row{
+    justify-content: center;
+  }
+  &__title {
+    @include text($museo700, 30px, #0d0d0d, 36px,  normal,  normal);
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  &__colTitle {
+    @include text($museo700, 18px, #0d0d0d, 21px,  normal,  normal);
+    text-align: center;
+    margin: 32px 0 20px;
+  }
+  &__colSubtitle{
+    @include text($museo300, 14px, #0d0d0d, 18px,  normal,  normal);
+    text-align: center;
+  }
+  &__icon{
+    display: block;
+    margin: 0 auto;
+  }
+  &__colSubtitleLink{
+    color: #FF0000;
+  }
+}

@@ -1,0 +1,40 @@
+.home{
+  padding: 160px 0 75px;
+  background: url("../images/home/bg1.png")center/cover  no-repeat;
+  text-align: end;
+  &__title{
+    @include text($museo500, 42px, rgba(255,255,255,1), 50px, normal, normal);
+    text-align: right;
+  }
+  &__subtitle{
+    @include text($museo500, 24px, rgba(255,255,255,1), 28px, normal, normal);
+    text-align: right;
+    margin: 20px 0 50px;
+  }
+  &__col{
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__colImg{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    margin: 0 auto;
+  }
+  &__colTitle{
+    @include text($museo500, 14px, rgba(255,255,255,1), 16px, normal, normal);
+    text-align: center;
+  }
+  &__btn{
+    @include btn($museo500, 16px);
+    margin: 30px 0 20px;
+    padding: 15px;
+  }
+  &__description{
+    @include text($museo500, 16px, rgba(255,255,255,1), 19px, normal, normal);
+    text-align: right;
+  }
+  &__link{
+    color: rgba(255,255,255,1);
+  }
+}
