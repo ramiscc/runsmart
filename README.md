@@ -1,2 +1,1 @@
-hosting
-https://ramiscc.github.io/runsmart
+Создана с помощью Bootstrap, Fancybox, JQuery, Owl-Carousel
